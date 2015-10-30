@@ -64,7 +64,8 @@ package com.example.pat.watch;
         this.year = year;
     }
 
-    class isDiveWatch {
-        if getWr
-    }
+    public boolean isDiveWatch() {
+        boolean isDW;
+
+    }return isDW;
 }
