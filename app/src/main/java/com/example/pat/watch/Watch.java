@@ -64,16 +64,5 @@ package com.example.pat.watch;
         this.year = year;
     }
 
-    public boolean isDiveWatch() {
-        boolean isDW;
 
-        int water = getWr();
-        if (water > 200){
-            isDW = true;
-        }else{
-            isDW =false;
-        }
-
-        return  isDW;
-    }
 }

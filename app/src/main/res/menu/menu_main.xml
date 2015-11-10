@@ -3,17 +3,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
+    <!--
     <item
         android:id="@+id/action_settings"
         android:onClick=""
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+        -->
 
     <item
         android:id="@+id/w1"
+        android:showAsAction="ifRoom|withText"
         android:onClick="forwardLst"
-        android:title="@string/w1"
+        android:title="@string/w1"></item>
+
+    <item
+        android:id="@+id/w2"
+        android:showAsAction="ifRoom|withText"
+        android:onClick="backwardLst"
+        android:title="@string/w2"></item>
+
+    <item
+        android:id="@+id/w3"
+        android:onClick="newWatch"
+        android:title="@string/w3"></item>
+
+    <item
+        android:id="@+id/w4"
+        android:onClick="showDetails"
+        android:title="@string/w4"></item>
+
+    <item
+        android:id="@+id/w5"
+        android:onClick="deleteWatch"
+        android:title="@string/w5"></item>
+
+    <item
+        android:id="@+id/w6"
+        android:onClick="avgPrice"
+        android:title="@string/w6"></item>
+
+    <item
+        android:id="@+id/w7"
+        android:onClick="numAuto"
+        android:title="@string/w7"></item>
+
+    <item
+        android:id="@+id/w8"
+        android:onClick="expensiveWatch"
+        android:title="@string/w8"></item>
+
+    <item
+        android:id="@+id/w9"
+        android:onClick="loadLst"
+        android:title="@string/w9"></item>
+
+    <item
+        android:id="@+id/w10"
+        android:onClick="saveLst"
+        android:title="@string/w10"></item>
 
 
 </menu>
