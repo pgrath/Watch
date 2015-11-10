@@ -3,4 +3,16 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="w1">Display list forward</string>
+    <string name="w2">Display list backwards</string>
+    <string name="w3">Add new watch</string>
+    <string name="w4">Show details of watch</string>
+    <string name="w5">Delete watch</string>
+    <string name="w6">Show average price</string>
+    <string name="w7">Show number of automatic watches</string>
+    <string name="w8">Show most expensive watch</string>
+    <string name="w9">Load list from file</string>
+    <string name="w10">Save list from file</string>
+
+
 </resources>
